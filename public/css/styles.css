@@ -1,0 +1,151 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+}
+
+.container {
+  width: 80%;
+  margin: 20px auto;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 5px;
+}
+
+h2 {
+  font-size: 1.5rem;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.content {
+  display: flex;
+  gap: 20px;
+}
+
+.synopsis-list {
+  flex: 3;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.synopsis-header {
+  background-color: #ccc !important;
+  padding: 10px !important;
+  font-weight: bold !important;
+  border-bottom: 3px solid black !important;
+}
+
+.synopsis-content {
+  padding: 15px !important;
+}
+
+.action-button {
+  padding: 8px 15px !important;
+  border: 3px solid black !important;
+  background-color: white !important;
+  cursor: pointer;
+  font-size: 0.9rem !important;
+  font-weight: bold !important;
+  box-shadow: 3px 3px 0px black !important;
+  transition: background-color 0.2s, transform 0.2s !important;
+}
+
+.action-button:hover {
+  background-color: #d87170 !important;
+  transform: translateY(-2px) !important;
+}
+
+.test {
+  display: flex;
+  justify-content: center; /* Aligne les boutons horizontalement au centre */
+  margin-bottom: 10px; /* Ajoute un espace entre chaque bouton */
+}
+
+.menu-item {
+  width: 100%; /* Assure que tous les boutons aient la même largeur */
+}
+
+
+        /* Ajoute ton style personnalisé */
+        .menu {
+          border-right: 2px solid #ddd;
+          padding-right: 20px;
+          margin-top: 20px;
+      }
+
+      .menu-item {
+          display: block;
+          margin-bottom: 10px;
+          padding: 10px;
+          border: 1px solid black;
+          background-color: #f8f9fa;
+          text-align: left;
+          text-decoration: none;
+          color: black;
+      }
+
+      .menu-item:hover {
+          background-color: #e9ecef;
+          cursor: pointer;
+      }
+
+      .form-container {
+          border: 1px solid black;
+          padding: 20px;
+          margin-top: 20px;
+          background-color: #f8f9fa;
+      }
+
+      .form-container label {
+          font-weight: bold;
+      }
+
+      .form-container input[type="text"],
+      .form-container input[type="password"] {
+          width: 100%;
+          margin-bottom: 15px;
+          padding: 8px;
+          border: 1px solid #ccc;
+          border-radius: 4px;
+      }
+
+      .form-container .btn {
+          float: right;
+      }
+
+      .form-container a {
+          display: block;
+          margin-top: 10px;
+          text-decoration: none;
+          color: #007bff;
+      }
+
+      .form-container a:hover {
+          text-decoration: underline;
+      }
+
+      .custom-btn {
+        display: block;  /* Les boutons deviennent des éléments de bloc */
+        width: 100%;     /* Chaque bouton prend 100% de la largeur de la div parente */
+        color: red;      /* Le texte du bouton reste rouge */
+        padding: 10px;   /* Ajoute du padding pour rendre le bouton plus agréable à utiliser */
+        text-align: center; /* Centre le texte à l'intérieur du bouton */
+        border: 1px solid red; /* Bordure rouge */
+        background-color: transparent; /* Fond transparent par défaut */
+        margin-bottom: 10px; /* Ajoute un espace entre chaque bouton */
+        transition: background-color 0.3s ease, color 0.3s ease; /* Transition douce lors du changement de couleur */
+      }
+      
+      .custom-btn:hover {
+        background-color: #d87170;  /* Change la couleur de fond du bouton au survol */
+        color: white;           /* Change la couleur du texte en blanc pour contraster avec le fond rouge */
+      }
+      
+
+      
+      
